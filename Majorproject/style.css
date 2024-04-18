@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+nav{
+    height: 54px;
+    width: 1535px;
+    background-color: rgb(27, 27, 80);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 3;
+
+}
+nav img{
+    height: 32px;
+    width: 113px;
+    margin-left: 55px;
+}
+nav ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    padding-right: 30px;
+}
+nav ul li{
+    padding-right: 40px;
+    color: white;
+}
+.business{
+    height: 891px;
+    width: 1519px;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(header-background.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+}
+.business h1{
+    font-size: 56px;
+    color: white;
+    height: 64px;
+    width: 1110px;
+}
+.business p{
+    font-size: 18px;
+    color: white;
+    height: 52px;
+    width: 610px;
+    text-align: center;
+    margin-top: 22px;
+}
+.bcontent{
+    position: absolute;
+    top: 350px;
+    left: 400px;
+    z-index: 0;
+}
+.business .bcontent button{
+    height:47px;
+    width: 137px;
+    border-radius: 4px;
+    color: white;
+    background-color: #14BF98;
+    border: none;
+    margin-top: 20px;
+    margin-left: 235px;
+}
+.business .bcontent button:hover{
+    background-color: transparent;
+    color: #14BF98;
+    border: 3px solid #bf1414;
+    cursor: pointer;
+}
+.p1{
+    color: #14BF98;
+}
+.con1{
+    width: 450px;
+    height: 410px;
+}
+.intro img{
+    width: 635px;
+    height: 410px;
+}
+.intro img:hover{
+    transform: scale(1.2);
+    transition:  1s ease-in;
+}
+.overflow{
+    overflow: hidden;
+}
+.intro{
+    display: flex;
+    margin-top: 90px;
+    gap: 90px;
+    margin-left: 180px;
+}
+.env{
+    width: 1175px;
+    height: 280px;
+    margin-top: 90px;
+    margin-left: 180px;
+    display: flex;
+    gap: 90px;
+}
+.c1 img{
+    height: 110px;
+    width: 150px;
+}
+.c2 img{
+    width: 150px;
+    height: 110px;
+}
+.c3 img{
+    width: 150px;
+    height: 110px;
+}
+.t1 .a1 span{
+    border: 3px solid black;
+    border-radius: 450%;
+    padding: 6px;
+}
+.trees{
+    width: 100%;
+    margin-top: 50px;
+}
+.t1{
+    display: flex;
+    gap: 100px;
+}
+.trees .t1 img{
+    width: 50%;
+    height: 555px;
+}
+.a1{
+    margin-top: 100px;
+    width: 580px;
+    height: 554px;
+}
+.a1 h1{
+    text-align: left;
+}
+.a1 h3:hover{
+    color: #14BF98;
+    border-color: #14BF98
+}
+.t2{
+    display: flex;
+}
+.trees .t2 img{
+    width: 50%;
+    height: 555px;
+    margin-left: 60px;
+}
+
+
